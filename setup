@@ -1,0 +1,21 @@
+from setuptools import setup
+setup(
+    name="PincPetr",
+    version="0.1",
+    description="2Dbinpack",
+    long_description=long_description,
+    url="https://github.com/PincPetr/projekt/",
+    author="PincPetr",
+    keywords=["rectangle", "packing 2D", "bin", "binpacking"],
+    license="Apache-2.0",
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: Apache Software License",
+    ],
+    packages=["projekt"],
+    zip_safe=False,
+    test_suite="nose.collector",
+    tests_require=["nose"],
+)
